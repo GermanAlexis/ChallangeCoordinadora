@@ -21,7 +21,7 @@ This is an example of how to list things you need to use the software and how to
   ```
 ### Installation
 
-1. Get a free API Key at [http://147.182.173.20:3001]
+1. Get a free API Key at [http://147.182.173.20:3001/challenge/docs]
 2. Clone the repo
    ```sh
    git clone https://github.com/GermanAlexis/ChallangeCoordinadora.git
