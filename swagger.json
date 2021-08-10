@@ -1,0 +1,107 @@
+
+  {
+"swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Reto Coordinadora",
+    "description": "Application API en Node Js"
+  },
+  "host": "localhost:3001",
+  "basePath": "/challenge",
+  "paths": {
+    "/arrayscore": {
+      "get": {
+        "tags": [{"name":"Metodos", "description": " del reto backend con nodejs"}],
+        "summary": "a partir de una matriz de números enteros enviada por parámetros, retorne una puntuación total",
+        "parameters":[ {
+        "random": "random",
+        "name": "random",
+        "description": "Ingreso de matriz",
+        "required": true
+        }],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "mensaje" : "Total"
+          },
+          "500": {
+            "description": "false",
+            "mensaje" : "ver logs"
+          }
+        }
+      }
+    },
+    "/sevenCows": {
+        "get": {
+          "tags": [{"name":"Metodos", "description": " del reto backend con nodejs"}],
+          "summary": "Get all users in system",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/transformArray": {
+        "get": {
+          "tags": [{"name":"Metodos", "description": " del reto backend con nodejs"}],
+          "summary": "método que recibe un arreglo bidimensional con elementos alfanuméricos y un parámetro de orden, este método debe retornar un arreglo unidimensional",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/sumArray": {
+        "get": {
+          "tags": [{"name":"Metodos", "description": " del reto backend con nodejs"}],
+          "summary": "Método que recibe una matriz de solo números (positivos y negativos), retorna varios valores ",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/deletesign": {
+        "get": {
+          "tags": [{"name":"Metodos", "description": " del reto backend con nodejs"}],
+          "summary": "método que recibe una cadena de texto el cual deberá validar si al final de cada palabra enviada tiene un signo de admiración (!)",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/average": {
+        "get": {
+          "tags": [{"name":"Metodos", "description": " del reto backend con nodejs"}],
+          "summary": "Realiza el promedio de dos numeros",
+          "parameters": [{
+              "name": "number1",
+              "type": "number",
+              "required": true
+          },
+          {
+            "name": "number2",
+            "type": "number",
+            "required": true
+        }],
+          "responses": {
+            "200": {
+              "description": "OK"
+            },
+            "401": {
+                "description": "False"
+              }
+          }
+        }
+      }
+
+  },
+
+  "consumes": ["application/json"],
+  "produces": ["application/json"]
+}
