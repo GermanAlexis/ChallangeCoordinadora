@@ -46,13 +46,24 @@ German Alexis Alvarez - alexisdager93@hotmail.com
 3. es muy importante ya que le da un mejor performance a la aplicacion en cuanto a las respuesta solicitadas
 4. la importancia de uar ORM en un proyecto es la facilidad que se tiene a la hora de usar los datos
 
-Ventajas
-Facilidad y velocidad de uso
-Abstracción de la base de datos usada.
-Seguridad de la capa de acceso a datos contra ataques.
-Desventajas
-En entornos con gran carga poner una capa más en el proceso puede mermar el rendimiento.
-Aprender el nuevo lenguaje del ORM.
+<ol>
+    <li>
+      Ventajas
+      <ul>
+        <li>Facilidad y velocidad de uso</li>
+        <li>Abstracción de la base de datos usada.</li>
+        <li>Seguridad de la capa de acceso a datos contra ataques.</li>
+      </ul>
+    </li>
+    <li>
+     Desventajas
+      <ul>
+        <li>En entornos con gran carga poner una capa más en el proceso puede mermar el rendimiento.</li>
+        <li>Aprender el nuevo lenguaje del ORM.</li>
+      </ul>
+    </li>
+
+  </ol>
 
 5. la principal diferencia que hay es la operatividad que tiene las distintas base de datos, mientras en unas se conoce la relaciones que tiene las tablas las otras no 
 6. si se habla de coleccio o documentos se esta hablando de como se conoce las propiedades principales de una base de datos no relacional
