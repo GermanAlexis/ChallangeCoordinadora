@@ -8,8 +8,7 @@
 To start the project we must have a series of tools installed on the computer
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
+It lists and gives instructions on how to install the applications so that the software works
 
  * node
   ```sh
